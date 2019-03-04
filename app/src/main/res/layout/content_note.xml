@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
-    tools:showIn="@layout/activity_note" >
+    tools:context=".NoteActivity"
+    tools:showIn="@layout/activity_note">
 
     <Spinner
         android:id="@+id/spinner_courses"
@@ -42,4 +42,5 @@
         app:layout_constraintEnd_toEndOf="@+id/text_note_title"
         app:layout_constraintStart_toStartOf="@+id/text_note_title"
         app:layout_constraintTop_toBottomOf="@+id/text_note_title" />
+
 </android.support.constraint.ConstraintLayout>
